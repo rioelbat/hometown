@@ -1,0 +1,120 @@
+body {
+    background: whitesmoke;
+    color: whitesmoke;
+    text-shadow: 0 0 10px #023047;
+    margin: 0;
+    text-align: center;
+    font-family: cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    width: 768px;
+    min-width: 768px;
+}
+
+.section {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: whitesmoke;
+}
+
+.section-img {
+    width: 300px;
+    object-fit: cover;
+    border: 3px solid whitesmoke;
+    margin: 0 20px;
+}
+
+.section-img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.section-content {
+    width: 400px;
+    margin: 0px 20px;
+
+}
+
+.section-description {
+    background: rgb(2, 48, 71, 0.6);
+    border-radius: 10px;
+    padding: 10px 20px;
+    border-bottom: 3px solid #FB8500;
+
+}
+
+#header {
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    background: linear-gradient(rgb(255, 183, 3, 0.8), rgb(251, 133, 0, 0.8)), url("https://source.unsplash.com/qXiHxMpQzYI/640x426");
+    background-size: cover;
+}
+
+#header-title {
+    font-family: 'Island Moments', cursive;
+    font-size: 100px;
+    line-height: 60px;
+    border-bottom: 3px dotted whitesmoke;
+    margin: 0;
+}
+
+#header-subtitle {
+    margin: 0;
+}
+
+#header-title:hover {
+    transform: scale(1.1, 1.1);
+}
+
+
+#beach {
+    background: linear-gradient(rgb(142, 202, 230, 0.8), rgb(33, 158, 188, 0.8)), url("https://source.unsplash.com/ruwpbWIi-hM/600x300");
+    background-size: cover;
+}
+
+#food {
+    background: linear-gradient(rgb(33, 158, 188, 0.8), rgb(142, 202, 230, 0.8)), url("https://source.unsplash.com/D3R3cd1bH3o/600x300");
+    background-size: cover;
+}
+
+#cozy {
+    background: linear-gradient(rgb(142, 202, 230, 0.8), rgb(33, 158, 188, 0.8)), url("https://source.unsplash.com/1Qtx6zZbpUk/600x300");
+    background-size: cover;
+}
+
+
+#footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background: #023047;
+}
+
+.margin-10 {
+    margin: 10px;
+}
+
+.text-14 {
+    font-size: 14px;
+}
+
+#footer-img {
+    width: 100px;
+}
+
+.rotate-left-5 {
+    transform: rotate(-5deg);
+}
+
+.rotate-right-5 {
+    transform: rotate(5deg);
+}
